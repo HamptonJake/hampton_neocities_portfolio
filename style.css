@@ -1,0 +1,89 @@
+/* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
+   HTML content. To learn how to do something, just try searching Google for questions like
+   "how to change link color." */
+
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centers content vertically */
+    align-items: center; /* Centers everything horizontally */
+    height: 100vh; /* Full viewport height */
+    margin: 0;
+    background-color: white;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+
+header {
+    position: absolute;
+    top: 20px; /* Adjust the spacing from the top */
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+}
+
+.projects_button img{
+ content: url('/projects.png');
+ transition: opacity 0.2s ease-in-out;
+}
+
+.projects_button:hover img{
+ content: url('/projects_glow.png') ;
+}
+
+.about_button img{
+ content: url('/about.png');
+ transition: opacity 0.2s ease-in-out;
+}
+
+.about_button:hover img{
+ content: url('/about_glow.png') ;
+}
+
+.art_button img{
+ content: url('/art.png');
+ transition: opacity 0.2s ease-in-out;
+}
+
+.art_button:hover img{
+ content: url('/art_glow.png') ;
+}
+
+.music_button img{
+ content: url('/music.png');
+ transition: opacity 0.2s ease-in-out;
+}
+
+.music_button:hover img{
+ content: url('/music_glow.png') ;
+}
+
+.menu_container {
+    display: flex;
+    justify-content: center; /* Keeps buttons in a horizontal row */
+    gap: 20px; /* Adjust space between buttons */
+    padding-top: 120px;
+}
+
+
+.centered_content {
+  text-align: center;
+}
+
+.centered_content ul {
+  display: inline-block;
+  text-align: left;
+  list-style-position: inside; /* Optional: Moves bullet points inside */
+}
