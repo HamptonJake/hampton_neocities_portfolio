@@ -22,11 +22,17 @@ img {
 
 header {
     position: absolute;
-    top: 20px; /* Adjust the spacing from the top */
+    top: 10px; /* Adjust the spacing from the top */
     left: 50%;
     transform: translateX(-50%);
     text-align: center;
+    margin-bottom: 100px;
 }
+
+header img {
+  margin-bottom: 100px;
+}
+
 
 footer {
     position: absolute;
@@ -34,14 +40,6 @@ footer {
     text-align: center;
 }
 
-.projects_button img{
- content: url('/projects.png');
- transition: opacity 0.2s ease-in-out;
-}
-
-.projects_button:hover img{
- content: url('/projects_glow.png') ;
-}
 
 .about_button img{
  content: url('/about.png');
@@ -73,8 +71,8 @@ footer {
 .menu_container {
     display: flex;
     justify-content: center; /* Keeps buttons in a horizontal row */
-    gap: 20px; /* Adjust space between buttons */
-    padding-top: 120px;
+    gap: 5px; /* Adjust space between buttons */
+    padding-top: 5px;
 }
 
 
